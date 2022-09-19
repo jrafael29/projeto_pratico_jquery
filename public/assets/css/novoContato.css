@@ -1,0 +1,97 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    padding: 15px;
+}
+.novo-contato{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+/* header */
+.novo-contato--header{
+    font-size: 28px;
+    font-weight: bold;
+}
+/* fim do header */
+
+
+
+/* body */
+.novo-contato--body{
+}
+
+
+
+/* form */
+.novo-contato--body  {
+    display: flex;
+    align-items:center;
+    gap: 25px;
+    flex-direction: column;
+}
+.novo-contato--body  .inputs{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap: 10px;
+}
+/* fim form */
+
+
+
+
+
+/* group */
+.novo-contato--body .group{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.novo-contato--body .group label{
+    margin-bottom: 5px;
+}
+.novo-contato--body .group [type="text"],
+.novo-contato--body .group [type="email"]
+{
+    border: 3px solid #000;
+    padding: 5px;
+}
+/* fim group */
+
+
+
+/* checkbox */
+.novo-contato--body  .checkbox{
+    align-self: flex-start;
+    display: flex;
+    gap: 6px;
+}
+.novo-contato--body  .checkbox .group{
+    display: flex !important;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+/* fim checkbox */
+
+
+
+/* fim do body */
+
+/* footer */
+.novo-contato--footer{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.novo-contato--footer button{
+    padding: 5px 10px;
+    box-shadow: 5px 5px 3px #000;
+
+}
+/* fim do footer */
